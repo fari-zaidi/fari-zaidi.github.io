@@ -3,3 +3,15 @@ logo: /Fari Pic.jpg
 description: Data Scientist
 #show_downloads: true
 theme: jekyll-theme-minimal
+
+<style>
+/* Add circular styling directly */
+.logo {
+  border-radius: 50%; /* Makes the image circular */
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+}
+</style>
+
+<!-- Display the logo with circular styling -->
+<img src="{{ site.logo }}" class="logo" alt="Faryal Zaidi Logo">
